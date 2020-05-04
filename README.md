@@ -12,7 +12,6 @@ HTML &amp; CSS capstone project: Online shop for electronics
 ![Algorithm schema](./main.png)
 ![Algorithm schema](./search.png)
 
-The goal here is to use the appropriate Bootstrap classes to positioning elements.
 
 # Built With
 * Plugin Jquery "Shadowbox"
