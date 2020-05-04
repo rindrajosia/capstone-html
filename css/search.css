@@ -177,3 +177,46 @@ legend {
   border: 1px solid black;
   border-radius: 2px;
 }
+
+.list {
+  padding: 0;
+  margin: 0;
+}
+
+.info {
+  font-size: 13px;
+  border-bottom: 1px ridge black;
+  padding-bottom: 5px;
+}
+
+.description {
+  margin-left: 10px;
+}
+
+.description p,
+.description .author,
+.description span,
+.option a,
+.price {
+  font-size: calc(11px + (15 - 11) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.price button {
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.info-first {
+  margin-bottom: 10px;
+}
+
+.info-next {
+  border-top: 1px ridge black;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
