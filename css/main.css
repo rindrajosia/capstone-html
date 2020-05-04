@@ -138,7 +138,14 @@ p .fas {
   cursor: pointer;
 }
 
-.form-inline button:hover {
+.form-inline a {
+  padding: 12px 30px;
+  border: 1px solid #383838;
+  cursor: pointer;
+}
+
+.form-inline button:hover,
+.form-inline a:hover {
   background-color: #d35266;
   color: #383838;
 }
