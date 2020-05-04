@@ -148,6 +148,16 @@ p .fas {
   cursor: pointer;
 }
 
+.price button {
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .form-inline button:hover {
   background-color: #d35266;
   color: #383838;
@@ -201,16 +211,6 @@ legend {
   font-size: calc(11px + (15 - 11) * ((100vw - 300px) / (1600 - 300)));
 }
 
-.price button {
-  border: none;
-  color: white;
-  padding: 8px 15px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
 .info-first {
   margin-bottom: 10px;
 }
@@ -219,4 +219,24 @@ legend {
   border-top: 1px ridge black;
   padding-top: 10px;
   margin-bottom: 10px;
+}
+
+.pagination a {
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #d35266;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 3px;
+}
+
+footer {
+  border-top: 1px ridge gray;
 }
