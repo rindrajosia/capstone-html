@@ -144,6 +144,14 @@ p .fas {
   cursor: pointer;
 }
 
+.menu-option li a {
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  height: 13px;
+}
+
 .form-inline button:hover,
 .form-inline a:hover {
   background-color: #d35266;
@@ -208,14 +216,6 @@ p .fas {
 .menu-option li:last-child {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-}
-
-.menu-option li a {
-  display: block;
-  text-align: center;
-  padding: 10px 20px;
-  text-decoration: none;
-  height: 13px;
 }
 
 @media only screen and (max-width: 768px) {
