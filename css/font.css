@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'GothamRL';
+  src: url(../font/Gotham-Rounded-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'GothamB';
+  src: url(../font/GothamBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'HelveticaB';
+  src: url(../font/Helvetica-Neue-LT-Com-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'HelveticaL';
+  src: url(../font/Helvetica-Neue-LT-Com-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'HelveticaM';
+  src: url(../font/Helvetica-Neue-LT-Com-Medium.ttf) format('truetype');
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-orange {
+  color: #d35266;
+}
+
+.text-gray {
+  color: #888;
+}
+
+.text-black {
+  color: #383838;
+}
+
+.bg-gostwhite {
+  background-color: #e9ecef;
+}
+
+.bg-orange {
+  background-color: #d35266;
+}
+
+.bg-gray {
+  background-color: #888;
+}
+
+.bg-black {
+  background-color: #383838;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.font-GothamB {
+  font-family: GothamB, sans-serif;
+}
+
+.font-GothamR {
+  font-family: GothamR, sans-serif;
+}
+
+.font-HelveticaL {
+  font-family: HelveticaL, sans-serif;
+}
+
+.font-HelveticaM {
+  font-family: HelveticaM, sans-serif;
+}
+
+.font-HelveticaB {
+  font-family: HelveticaB, sans-serif;
+}
+
+h1 {
+  font-size: 17px;
+}
+
+h2 {
+  font-size: 19px;
+}
