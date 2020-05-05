@@ -182,6 +182,15 @@ p .fas {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .checkbox-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 legend {
   padding-top: 20px;
   border-bottom: 1px ridge grey;
@@ -205,6 +214,22 @@ legend {
   padding-bottom: 5px;
 }
 
+@media only screen and (min-width: 768px) {
+  .items {
+    display: flex;
+    flex-direction: row;
+    justify-content: between;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .description {
   margin-left: 10px;
 }
@@ -225,6 +250,14 @@ legend {
   border-top: 1px ridge black;
   padding-top: 10px;
   margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .info-pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 .pagination a {
