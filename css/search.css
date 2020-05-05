@@ -158,6 +158,12 @@ p .fas {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 768px) {
+  .price button:first-child {
+    margin-right: 5px;
+  }
+}
+
 .form-inline button:hover {
   background-color: #d35266;
   color: #383838;
