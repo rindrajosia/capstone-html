@@ -265,6 +265,7 @@ p .fas {
 
 .thumb-header {
   border-bottom: 1px ridge white;
+  padding-bottom: 10px;
 }
 
 .thumb-title img {
