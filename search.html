@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online shop for electronics</title>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="build/shadowbox.css">
+  </head>
+  <body class="bg-gostwhite">
+    <div class="l-container-fluid header-menu">
+
+       <nav class="l-container-fluid menu row flex-md-row flex-md-justify-between flex-md-align-center">
+         <ul class="menu-left col-md-9 col-sm-9 flex-md-row flex-md-justify-between">
+           <li class="flex-md-row flex-sm-row logo">
+             <img src="img/logo.png" alt="">
+             <p class="text-white font-GothamB">ZATTIX</p>
+          </li>
+          <li>
+             <p class="text-orange font-HelveticaL p-menu">
+               <a href="#"><i class="fas fa-home"></i>HOME</a>
+             </p>
+          </li>
+          <li>
+            <p class="text-gray font-HelveticaL p-menu">
+              <a href="#"><i class="fas fa-cubes"></i>COLLECTIONS</a>
+            </p>
+          </li>
+          <li>
+            <p class="text-gray font-HelveticaL p-menu">
+              <a href="#"><i class="fas fa-shopping-cart"></i>PURCHASE LIST</a>
+            </p>
+          </li>
+          <li class="d-sm-none">
+            <a href="#" class="add bg-orange font-HelveticaL text-white">POST AN AD</a>
+          </li>
+         </ul>
+
+         <ul class=" col-md-3 col-sm-3 flex-md-row flex-md-justify-between">
+           <li class="flex-sm-row">
+             <p class="text-white font-HelveticaB p-menu">
+               <a href="#"><i class="far fa-envelope text-white"></i>JOSIA</a>
+             </p>
+           </li>
+         </ul>
+       </nav>
+
+   </div>
+
+   <header class="top-header l-container-fluid bg-orange clearfix">
+      <div class="baseline l-container">
+        <p class="text-white font-GothamB baseline-l1 d-sm-none">ZATTIX</p>
+        <p class="text-white font-HelveticaL baseline-l2 d-sm-none">Buying and selling couldn't be simpler than this</p>
+        <form class="form-inline flex-md-row flex-md-align-center flex-sm-column flex-sm-align-center" action="#" method="post">
+          <div class="d-select">
+            <select class="department font-HelveticaL text-gray">
+                <option value="">All Departments</option>
+                <option value="">Department 1</option>
+                <option value="">Department 2</option>
+            </select>
+          </div>
+          <input type="text" class="search font-HelveticaL text-gray" placeholder="What do you search for?" name="search">
+          <input type="text" class="location font-HelveticaL text-gray" placeholder="Where is your location?" name="location">
+          <button class="text-gray bg-black font-HelveticaM" type="submit">Search</button>
+        </form>
+      </div>
+    </header>
+
+    <main class="l-container-lg content row">
+      <aside class="checkbox col-md-3 col-sm-12 text-gray font-HelveticaL">
+        <form action="#">
+          <div class="checkbox-flex">
+            <input type="checkbox" id="rent" name="rent" value="rent">
+            <label for="rent"> Rent</label>
+            <input type="checkbox" id="ownership" name="ownership" value="ownership">
+            <label for="ownership"> Ownership</label>
+          </div>
+        </form>
+
+        <form action="#">
+          <fieldset>
+            <legend class="text-black font-HelveticaM">Type</legend>
+            <div class="checkbox-flex">
+              <p>
+                <input type="checkbox" id="place" name="place" value="place">
+                <label for="place"> Entire Place</label>
+              </p>
+              <p>
+                <input type="checkbox" id="room" name="room" value="room">
+                <label for="room"> Private Room </label>
+              </p>
+              <p>
+                <input type="checkbox" id="sroom" name="sroom" value="sroom">
+                <label for="sroom"> Shared Room </label>
+              </p>
+            </div>
+          </fieldset>
+        </form>
+
+        <form action="#">
+          <fieldset>
+            <legend class="text-black font-HelveticaM">Size</legend>
+            <div class="checkbox-flex">
+              <p>
+                <input type="checkbox" id="t-room" name="t-room" value="t-room">
+                <label for="t-room"> 2-4 Rooms</label>
+              </p>
+              <p>
+                <input type="checkbox" id="f-room" name="f-room" value="f-room">
+                <label for="f-room"> 5+ Rooms </label>
+              </p>
+              <p>
+                <input type="checkbox" id="custom" name="custom" value="custom">
+                <label for="custom"> Custom  </label>
+                <input class="t-custom" type="text" id="t-custom" name="t-custom">
+              </p>
+            </div>
+          </fieldset>
+        </form>
+
+        <form action="#">
+          <fieldset>
+            <legend class="text-black font-HelveticaM">Price Range</legend>
+            <div class="checkbox-flex">
+              <p>
+                <input type="checkbox" id="ten" name="ten" value="ten">
+                <label for="ten"> 10$ - 100$</label>
+              </p>
+              <p>
+                <input type="checkbox" id="one" name="one" value="one">
+                <label for="one"> 100$ - 500$  </label>
+              </p>
+              <p>
+                <input type="checkbox" id="five" name="five" value="five">
+                <label for="five"> 500$ - 1000$   </label>
+              </p>
+              <p>
+                <input type="checkbox" id="plus" name="plus" value="plus">
+                <label for="plus"> +10000$    </label>
+              </p>
+            </div>
+          </fieldset>
+        </form>
+      </aside>
+
+      <div class="list col-md-9 col-sm-12">
+        <p class="info text-gray font-HelveticaL"> 138 Results for "Flat" Search at Sans Franscisco in Category Real Estate </p>
+        <div class="info-first row items">
+          <div class="bg-gostwhite">
+            <a rel="shadowbox" href="img/room2-lg.png"> <img src="img/room2.png" alt=""></a>
+          </div>
+          <section class="description">
+            <ul>
+              <li>
+                <h2 class="text-orange font-HelveticaM">Flat with Big Living, 2 Bed rooms, 2 baths and a Kitchen</h2>
+              </li>
+              <li>
+                <p class="font-HelveticaM text-gray">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam aspernatur culpa neque mollitia corporis
+                  dolorum quasi delectus quas nesciunt esse?
+              </p>
+            </li>
+            <li class="author font-HelveticaB text-black">
+              Location:  <span class="font-HelveticaL text-gray">Madagascar</span>
+            </li>
+            <li class="flex-md-row flex-md-justify-between flex-md-align-end">
+              <div class="option">
+                <a class="font-HelveticaM text-gray" href="#">03 Mey 2020</a>
+              </div>
+
+              <div class="price price-flex">
+                <button class="bg-orange" type="button" name="button">Give a Call</button>
+                <button class="bg-orange" type="button" name="button">450$</button>
+              </div>
+
+            </li>
+            </ul>
+
+
+          </section>
+        </div>
+
+        <div class="info-next row items">
+          <div class="bg-gostwhite">
+            <a rel="shadowbox" href="img/room1-lg.png"> <img src="img/room1.png" alt=""></a>
+          </div>
+          <section class="description">
+            <ul >
+              <li>
+                <h2 class="text-orange font-HelveticaM">Flat with Big Living, 2 Bed rooms, 2 baths and a Kitchen</h2>
+              </li>
+              <li>
+                <p class="font-HelveticaM text-gray">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam aspernatur culpa neque mollitia corporis
+                  dolorum quasi delectus quas nesciunt esse?
+              </p>
+            </li>
+            <li class="author font-HelveticaB text-black">
+              Location:  <span class="font-HelveticaL text-gray">Madagascar</span>
+            </li>
+            <li class="flex-md-row flex-md-justify-between flex-md-align-end">
+              <div class="option">
+                <a class="font-HelveticaM text-gray" href="#">03 Mey 2020</a>
+              </div>
+
+              <div class="price price-flex">
+                <button class="bg-orange" type="button" name="button">Give a Call</button>
+                <button class="bg-orange" type="button" name="button">450$</button>
+              </div>
+
+            </li>
+            </ul>
+
+
+          </section>
+        </div>
+
+        <div class="info-next row items">
+          <div class="bg-gostwhite thumbs">
+            <a rel="shadowbox" href="img/room3-lg.png"> <img src="img/room3.png" alt=""></a>
+          </div>
+          <section class="description">
+            <ul >
+              <li>
+                <h2 class="text-orange font-HelveticaM">Flat with Big Living, 2 Bed rooms, 2 baths and a Kitchen</h2>
+              </li>
+              <li>
+                <p class="font-HelveticaM text-gray">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam aspernatur culpa neque mollitia corporis
+                  dolorum quasi delectus quas nesciunt esse?
+              </p>
+            </li>
+            <li class="author font-HelveticaB text-black">
+              Location:  <span class="font-HelveticaL text-gray">Madagascar</span>
+            </li>
+            <li class="flex-md-row flex-md-justify-between flex-md-align-end">
+              <div class="option">
+                <a class="font-HelveticaM text-gray" href="#">03 Mey 2020</a>
+              </div>
+
+              <div class="price price-flex">
+                <button class="bg-orange" type="button" name="button">Give a Call</button>
+                <button class="bg-orange" type="button" name="button">450$</button>
+              </div>
+
+            </li>
+            </ul>
+
+
+          </section>
+        </div>
+
+
+        <div class="info-next row items">
+          <div class="bg-gostwhite">
+            <a rel="shadowbox" href="img/room2-lg.png"> <img src="img/room2.png" alt=""></a>
+          </div>
+          <section class="description">
+            <ul >
+              <li>
+                <h2 class="text-orange font-HelveticaM">Flat with Big Living, 2 Bed rooms, 2 baths and a Kitchen</h2>
+              </li>
+              <li>
+                <p class="font-HelveticaM text-gray">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam aspernatur culpa neque mollitia corporis
+                  dolorum quasi delectus quas nesciunt esse?
+              </p>
+            </li>
+            <li class="author font-HelveticaB text-black">
+              Location:  <span class="font-HelveticaL text-gray">Madagascar</span>
+            </li>
+            <li class="flex-md-row flex-md-justify-between flex-md-align-end">
+              <div class="option">
+                <a class="font-HelveticaM text-gray" href="#">03 Mey 2020</a>
+              </div>
+
+              <div class="price price-flex">
+                <button class="bg-orange" type="button" name="button">Give a Call</button>
+                <button class="bg-orange" type="button" name="button">450$</button>
+              </div>
+
+            </li>
+            </ul>
+
+
+          </section>
+        </div>
+
+        <div class="info-next row items">
+          <div class="bg-gostwhite">
+            <a rel="shadowbox" href="img/room3-lg.png"> <img src="img/room3.png" alt=""></a>
+          </div>
+          <section class="description">
+            <ul >
+              <li>
+                <h2 class="text-orange font-HelveticaM">Flat with Big Living, 2 Bed rooms, 2 baths and a Kitchen</h2>
+              </li>
+              <li>
+                <p class="font-HelveticaM text-gray">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam aspernatur culpa neque mollitia corporis
+                  dolorum quasi delectus quas nesciunt esse?
+              </p>
+            </li>
+            <li class="author font-HelveticaB text-black">
+              Location:  <span class="font-HelveticaL text-gray">Madagascar</span>
+            </li>
+            <li class="flex-md-row flex-md-justify-between flex-md-align-end">
+              <div class="option">
+                <a class="font-HelveticaM text-gray" href="#">03 Mey 2020</a>
+              </div>
+
+              <div class="price price-flex">
+                <button class="bg-orange" type="button" name="button">Give a Call</button>
+                <button class="bg-orange" type="button" name="button">450$</button>
+              </div>
+
+            </li>
+            </ul>
+          </section>
+        </div>
+       <div class="info-first d-sm-none row info-pagination">
+         <div class="pagination flex-row text-black">
+           <a href="#">&laquo;</a>
+           <a href="#">1</a>
+           <a href="#" class="active">2</a>
+           <a href="#">3</a>
+           <a href="#">4</a>
+           <a href="#">5</a>
+           <a href="#">6</a>
+           <a href="#">&raquo;</a>
+         </div>
+       </div>
+     </div>
+   </main>
+
+   <footer class="l-container-lg content row">
+      <div class="col-md-5 col-sm-12">
+        <div class="footer-left flex-sm-column flex-sm-justify-center flex-sm-align-center flex-md-column flex-md-justify-center flex-md-align-center">
+          <p class="text-gray font-GothamB baseline-l1"><img src="img/logo-footer.png" alt=""> ZATTIX</p>
+          <p class="font-HelveticaL text-gray">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum perspiciatis ullam quia, at aut omnis et in odit
+            repudiandae dolore reprehenderit amet, distinctio nihil unde perferendis laudantium possimus voluptate eius.</p>
+        </div>
+
+      </div>
+
+      <div class="footer-center col-md-3 col-sm-12">
+        <h2 class="text-orange footer-tilte font-HelveticaM">CATEGORIE</h2>
+        <div class="footer-center-content  flex-sm-row flex-sm-justify-between flex-sm-align-center flex-md-row flex-md-justify-between">
+          <ul class="text-gray">
+            <li><a href="#">Real Estate</a></li>
+            <li><a href="#">Automotives</a></li>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Clothing</a></li>
+            <li><a href="#">Fashion</a></li>
+            <li><a href="#">Kids</a></li>
+          </ul>
+
+          <ul class="text-gray">
+            <li><a href="#">Real Estate</a></li>
+            <li><a href="#">Automotives</a></li>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Clothing</a></li>
+            <li><a href="#">Fashion</a></li>
+            <li><a href="#">Kids</a></li>
+          </ul>
+
+        </div>
+
+      </div>
+
+        <div class="right col-md-4 col-sm-12">
+          <h2 class="text-orange footer-tilte font-HelveticaM">Navigation</h2>
+          <div class="footer-center-content flex-row flex-md-justify-between">
+            <ul class="text-gray">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Sign In</a></li>
+              <li><a href="#">Sign Up</a></li>
+              <li><a href="#">Terms &nbsp; Conditions</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+      </div>
+    </footer>
+
+   <script src="assets/demo.js"></script>
+   <script src="build/shadowbox.js"></script>
+   <script>
+       Shadowbox.init( {
+          overlayOpacity: 0.8
+       }, setupDemos );
+   </script>
+
+  </body>
+</html>

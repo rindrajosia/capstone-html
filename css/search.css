@@ -1,0 +1,287 @@
+.header-menu {
+  background-image: url(../img/bg-header.png);
+  background-repeat: repeat-x;
+  height: 52px;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-menu {
+    background-image: url(../img/bg-header.png);
+    background-repeat: repeat;
+    height: 150px;
+  }
+}
+
+.menu {
+  height: 49px;
+  padding-right: 10px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.menu-left li {
+  margin-right: 20px;
+}
+
+.logo img {
+  width: 36px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+p .fas {
+  margin-right: 5px;
+}
+
+.p-menu {
+  font-size: 14px;
+}
+
+.add {
+  margin-top: 4px;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 10px 31px;
+  text-shadow: 0 1px 0 #2f6627;
+}
+
+.add:hover {
+  background-color: #8888;
+}
+
+.fa-envelope {
+  margin-right: 20px;
+}
+
+.top-header {
+  height: 150px;
+}
+
+@media only screen and (max-width: 768px) {
+  .top-header {
+    height: 210px;
+    padding-top: 10px;
+  }
+}
+
+.baseline-l1 {
+  font-size: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.baseline-l1 img {
+  vertical-align: middle;
+}
+
+.baseline-l2 {
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+.d-select select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 0 0 0 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 100%;
+  font-size: 15px;
+}
+
+.d-select {
+  position: relative;
+  width: 300px;
+  margin-right: 5px;
+}
+
+.d-select select,
+.d-select::after {
+  height: 45px;
+}
+
+.d-select::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '\25bc';
+  line-height: 45px;
+  padding-left: 5px;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 5px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  font-size: 19px;
+  width: 300px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 814px) {
+  .form-inline input,
+  .d-select {
+    width: 198px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .form-inline input {
+    width: 90%;
+  }
+
+  .d-select {
+    width: 94%;
+  }
+}
+
+.form-inline button {
+  padding: 3px 30px;
+  height: 45px;
+  border: 1px solid #383838;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.price button {
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .price-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .price button:first-child {
+    margin-right: 5px;
+  }
+}
+
+.form-inline button:hover {
+  background-color: #d35266;
+  color: #383838;
+}
+
+.checkbox {
+  padding: 20px 10px 0 2px;
+  border-right: 1px ridge black;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+  .checkbox {
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .checkbox-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+legend {
+  padding-top: 20px;
+  border-bottom: 1px ridge grey;
+  width: 100%;
+}
+
+.t-custom {
+  width: 30px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+}
+
+.info {
+  font-size: 13px;
+  border-bottom: 1px ridge black;
+  padding-bottom: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.description {
+  margin-left: 10px;
+}
+
+.description p,
+.description .author,
+.description span,
+.option a,
+.price {
+  font-size: calc(11px + (15 - 11) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.info-first {
+  margin-bottom: 10px;
+}
+
+.info-next {
+  border-top: 1px ridge black;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .info-pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.pagination a {
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #d35266;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 3px;
+}
+
+footer {
+  border-top: 1px ridge gray;
+}
